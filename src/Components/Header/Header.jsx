@@ -6,7 +6,7 @@ const Header = () => {
   return (
       <header>
         <ul>
-          <li className={`${css.item}`}>Home</li>
+          <li className={`${css.item}`}><Link to='/home'>Home</Link></li>
           <li className={`${css.item}`}>About</li>
           <li className={`${css.item}`}>Shop</li>
         </ul>
