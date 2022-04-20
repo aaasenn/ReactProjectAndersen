@@ -1,0 +1,14 @@
+.registration {
+    display: flex;
+}
+
+.registration input {
+    border: none;
+    background-color: gold;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-left: 20px;
+}
+.registration input:last-of-type {
+    background-color: salmon;
+}

@@ -1,0 +1,23 @@
+form {
+    background-color: burlywood;
+    border: 1px solid dimgray;
+    display: inline-block;
+    padding: 30px 30px;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 6px;
+    transform: translate(0, -50%);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+}
+

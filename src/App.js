@@ -1,19 +1,16 @@
 import React from 'react';
 import './App.css';
-import Header from './Components/Header/Header';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Components/Home/Home';
+import Header from "./components/Header/Header";
+import Content from "./components/Content/Content";
 
-const App = () => {
+
+
+function App() {
   return (
-    <div className='wrapper'>
-      <Header />
-      <div className='content'>
-        <Routes>
-          <Route path='/home' element={<Home />} />
-        </Routes>
+      <div className='wrapper'>
+        <Header />
+        <Content />
       </div>
-    </div>
   )
 }
 export default App;
